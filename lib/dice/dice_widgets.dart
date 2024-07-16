@@ -49,7 +49,7 @@ class DiceView extends StatelessWidget {
                     onPressed: diceCounter.roll,
                     child: Observer(
                       builder: (_) =>
-                          Image.asset('images/dice${diceCounter.left}.png'),
+                          Image.asset('assets/images/dice${diceCounter.left}.png'),
                     ),
                   ),
                 ),
@@ -58,7 +58,7 @@ class DiceView extends StatelessWidget {
                     onPressed: diceCounter.roll,
                     child: Observer(
                       builder: (_) =>
-                          Image.asset('images/dice${diceCounter.right}.png'),
+                          Image.asset('assets/images/dice${diceCounter.right}.png'),
                     ),
                   ),
                 ),
